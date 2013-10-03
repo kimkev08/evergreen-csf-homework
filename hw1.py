@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Name: Kevin Kim
+# Evergreen Login: kimkev08
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 1
