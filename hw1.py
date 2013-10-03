@@ -12,13 +12,24 @@
 import math                     # makes the math.sqrt function available
 
 
-###
-### Problem 1
-###
+print "problem 1 find the roots of x^2+5.86x+5.408"
 
 print "Problem 1 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+a = 1
+b = -5.86
+c = 8.5408
+
+roota = (-b + (math.sqrt( b ** 2 - ((4 * a * c))))) / ( 2 * a)
+
+rootb = (-b - (math.sqrt( b ** 2 - ((4 * a * c))))) / ( 2 * a)
+print "roota", "="
+print roota
+
+print "rootb", "="
+print rootb
+
+
 
 
 ###
@@ -27,18 +38,30 @@ print "Problem 1 solution follows:"
 
 print "Problem 2 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+import hw1_test
+print hw1_test.a
+print hw1_test.b
+print hw1_test.c
+print hw1_test.d
+print hw1_test.e
+print hw1_test.f
 
 
 ###
-### Problem 3
+### Problem 
+3
 ###
 
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+a = hw1_test.a
+b = hw1_test.b
+c = hw1_test.c
+d = hw1_test.d
+e = hw1_test.e
+f = hw1_test.f
 
-
+print ((a and b) or (not c) and not (d or e or f))
 ###
 ### Collaboration
 ###
