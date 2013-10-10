@@ -9,7 +9,7 @@
 # you are done.  When you are done, running this file should compute and
 # print the answers to all the problems.
 
-
+import hw2_test
 ###
 ### Problem 1
 ###
@@ -17,7 +17,15 @@
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 1 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+n = hw2_test.n
+sum1 = 0
+i = 1
+
+
+while i <= n:
+    sum1 = sum1 + i
+    i = i + 1
+print sum1
 
 
 ###
@@ -27,7 +35,10 @@ print "Problem 1 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 2 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+
+
+for i in range (2, 11):
+    print 1.0/i
 
 
 ###
@@ -37,7 +48,13 @@ print "Problem 2 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+n = 10
+triangular = 0
+for i in range (1, n+1):
+    triangular = triangular + i
+print "Triangular number", n, "via loop:", triangular
+print "Triangular number", n, "via formula:", n*(n+1)/2
+
 
 ###
 ### Problem 4
@@ -46,7 +63,12 @@ print "Problem 3 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+n = 10
+factor = 1
+for i in range (1, n+1):
+    factor = factor * i
+print "factor number", n, "via loop:", factor
+
 
 ###
 ### Problem 5
