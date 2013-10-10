@@ -9,7 +9,6 @@
 # you are done.  When you are done, running this file should compute and
 # print the answers to all the problems.
 
-import math
 import hw2_test
 ###
 ### Problem 1
@@ -78,12 +77,7 @@ print "factor number", n, "via loop:", factor
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
 
-for j in range (1, 11):
-    n = 11 - j
-    factor = 1
-    for i in range (1, n+1):
-        factor = factor * i
-    print "factor number", n, "via loop:", factor
+# ... write your code and comments here (and remove this line)
 
 ###
 ### Problem 6
@@ -92,20 +86,11 @@ for j in range (1, 11):
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-sum2 = 1
-for j in range (1, 11):
-    n = 11 - j
-    factor = 1
-    for i in range (1, n+1):
-        factor = factor * i
-    sum2 = sum2 + 1.0/factor
-print sum2
-print "e for comparison", math.e
+# ... write your code and comments here (and remove this line)
 
 ###
 ### Collaboration
 ###
-#Cliff Randolph
 
 # ... List your collaborators and other sources of help here (websites, books, etc.),
 # ... as a comment (on a line starting with "#").
