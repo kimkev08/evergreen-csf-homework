@@ -117,3 +117,6 @@ print "e for comparison", math.e
 # ... Write how long this assignment took you, including doing all the readings
 # ... and tutorials linked to from the homework page. Did the readings, tutorials,
 # ... and lecture contain everything you needed to complete this assignment?
+
+# not saving as myself but as cliff possibly cause its cliff's computer
+#reading and hw. took me about 2 hour with cliff's assistance
