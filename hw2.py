@@ -1,4 +1,4 @@
-# Name: Kevin Kim
+# Name: Kevin Kim.
 # Evergreen Login: Kimkev08
 # Computer Science Foundations
 # Programming as a Way of Life
