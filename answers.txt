@@ -19,20 +19,33 @@ Problem 1:
 
 Problem 2:
 
-...
+GC-content: 0.43029262963
 
 Problem 3:
 
-...
+what happened was that the command gave me back an error because linenum was
+undefined.if gc_count was comented out then another error would appear because
+gc_count is needed to be defined to actually run the program.
+
 
 Problem 4:
 
-...
+AT-content: 0.568993851852
 
 Collaboration:
 
-...
+i worked with Cliff Randolph
 
 Reflection:
 
-...
+what did i learn: more about dna i guess. also some things about functions like
+you have to pay clos atention to them with the semicolon at the end and what not
+
+what did i wish i already learned: the up on teminal can input previouse comands
+
+what did i wish i did diffrently: i wished i didnt do the first seven questions
+for the online class when i was only supposed to do 4 and that i didnt mess up
+to badly on one of them.
+
+future advice for students: if you meet a guy named Cliff listen to him
+
