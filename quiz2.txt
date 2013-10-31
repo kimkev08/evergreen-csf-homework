@@ -1,0 +1,3 @@
+
+lab2 = import n.
+print "equal to 50"
