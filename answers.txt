@@ -23,10 +23,16 @@ GC-content: 0.43029262963
 
 Problem 3:
 
+<<<<<<< HEAD
+what happened was that the command gave me back an error because linenum was 
+undefined.if gc_count was comented out then another error would appear because
+gc_count is needed to be defined to actually run the program.
+=======
 what happened was that the command gave me back an error because linenum was
 undefined.if gc_count was comented out then another error would appear because
 gc_count is needed to be defined to actually run the program.
 
+>>>>>>> 6f085f33de7d975bbbfd72360b1e56d741a2cc02
 
 Problem 4:
 
@@ -38,18 +44,28 @@ i worked with Cliff Randolph
 
 Reflection:
 
+<<<<<<< HEAD
+what did i learn: more about dna i guess. also some things about functions like 
+=======
 what did i learn: more about dna i guess. also some things about functions like
+>>>>>>> 6f085f33de7d975bbbfd72360b1e56d741a2cc02
 you have to pay clos atention to them with the semicolon at the end and what not
 
 what did i wish i already learned: the up on teminal can input previouse comands
 
 what did i wish i did diffrently: i wished i didnt do the first seven questions
+<<<<<<< HEAD
+for the online class when i was only supposed to do 4 and that i didnt mess up 
+to badly on one of them.
+
+future advice for students: if you meet a guy named Cliff listen to him
+=======
 for the online class when i was only supposed to do 4 and that i didnt mess up
 to badly on one of them.
 
 future advice for students: if you meet a guy named Cliff listen to him
 
-
+>>>>>>> 6f085f33de7d975bbbfd72360b1e56d741a2cc02
 
 Problem 5:
 
@@ -164,3 +180,17 @@ GCAT_content: 26980735.0
 problem 7:
 AT Ratio: 2 ( for small-fastq)
 AT Ratio: 1 (for sample1.fastq)
+
+problem 8:
+
+test-small.fastq
+Low GC Content
+
+test-high-gc-1.fastq
+
+test-high-gc-2.fastq
+
+test-moderate-gc-1.fastq
+
+test-moderate-gc-2.fastq
+
