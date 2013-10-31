@@ -76,3 +76,30 @@ at_content = float(at_count) / total_count
 # Print the answer
 print 'GC-content:', gc_content
 print 'AT-content:', at_content
+
+for bp in seq:
+    # increment the total number of bps we've seen
+    total_count = total_count + 1
+
+    # next, if the bp is a G or a C,
+    if bp == 'C':
+        # increment the count of gc
+        c_count = c_count + 1
+    if bp == 'T':
+        t_count = t_count + 1
+    if bp == 'G':
+        g_count = g_count + 1
+    if bp == 'A':
+        a_count = a_count + 1
+
+c_content = float(c_count) / total_count
+print 'c_content:', c_content
+
+g_content = float(g_count) / total_count
+print 'G_content:', g_content
+
+t_content = float(t_count) / total_count
+print 'T_content:', t_content
+
+a_content = float(a_count) / total_count
+print 'A_content:', a_content
