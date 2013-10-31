@@ -54,6 +54,11 @@ total_count = 0
 # Number of G and C nucleotides seen so far.
 gc_count = 0
 at_count = 0
+c_count = 0
+t_count = 0
+g_count = 0
+a_count = 0
+
 
 # for each base pair in the string,
 for bp in seq:
@@ -75,11 +80,12 @@ at_content = float(at_count) / total_count
 
 # Print the answer
 print 'GC-content:', gc_content
+
 print 'AT-content:', at_content
+
 
 for bp in seq:
     # increment the total number of bps we've seen
-    total_count = total_count + 1
 
     # next, if the bp is a G or a C,
     if bp == 'C':
@@ -112,3 +118,10 @@ print 'total length', len(seq)
 AT_Ratio = (a_count + t_count) / (g_count +c_count)
 print 'AT Ratio:', AT_Ratio
 
+if gc_content > (total_count * .4):
+    print 'High GC Content'
+if gc_content < (total_count * .6):
+    print 'Low GC Content'
+else:
+    print 'Moderate GC Content'
+    
