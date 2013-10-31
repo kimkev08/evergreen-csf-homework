@@ -106,3 +106,9 @@ print 'A_content:', a_content
 
 gcat_count = c_content + g_content + t_content + a_content
 print 'GCAT_content:', gcat_count
+print 'total count:', total_count
+print 'total length', len(seq)
+
+AT_Ratio = (a_count + t_count) / (g_count +c_count)
+print 'AT Ratio:', AT_Ratio
+
