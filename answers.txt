@@ -60,11 +60,107 @@ A_content: 7701287.0
 
 problem 6:
 
-data/test-small.fastq
+test-small.fastq
 c_content: 2.0
 G_content: 1.0
 T_content: 2.0
 A_content: 5.0
 GCAT_content: 10.0
+total count: 10
+total length 10
 
 test-high-gc-1.fastq
+total count: 40000
+total length 40000
+c_content: 11800.0
+G_content: 12176.0
+T_content: 7894.0
+A_content: 7970.0
+GCAT_content: 39840.0
+
+tes-high-gc-2.fastq
+total count: 40000
+total length 40000
+c_content: 15955.0
+G_content: 15955.0
+T_content: 4023.0
+A_content: 3908.0
+GCAT_content: 39841.0
+
+test-moderate-gc-1.fastq
+total count: 40000
+total length 40000
+c_content: 9983.0
+G_content: 9818.0
+T_content: 9963.0
+A_content: 10077.0
+GCAT_content: 39841.0
+
+test-moderate-gc-2.fastq
+total count: 40000
+total length 40000
+c_content: 7999.0
+G_content: 7972.0
+T_content: 12027.0
+A_content: 11813.0
+GCAT_content: 39811.0
+
+sample_6.fastq
+total count: 27000
+total length 27000
+c_content: 5967.0
+G_content: 7304.0
+T_content: 6852.0
+A_content: 6867.0
+GCAT_content: 26990.0
+
+sample_5.fastq
+total count: 76
+total length 76
+c_content: 9.0
+G_content: 11.0
+T_content: 28.0
+A_content: 27.0
+GCAT_content: 75.0
+
+sample_4.fastq
+total count: 9981008
+total length 9981008
+c_content: 1851138.0
+G_content: 1620779.0
+T_content: 3204771.0
+A_content: 3304273.0
+GCAT_content: 9980961.0
+
+sample_3.fastq
+total count: 9510928
+total length 9510928
+c_content: 3144239.0
+G_content: 3008039.0
+T_content: 1796632.0
+A_content: 1561973.0
+GCAT_content: 9510883.
+
+sample_2.fastq
+total count: 27000000
+total length 27000000
+c_content: 6075218.0
+G_content: 6103168.0
+T_content: 7331353.0
+A_content: 7467696.0
+GCAT_content: 26977435.0
+
+
+sample_1.fastq
+total count: 27000000
+total length 27000000
+c_content: 5879128.0
+G_content: 5738773.0
+T_content: 7661547.0
+A_content: 7701287.0
+GCAT_content: 26980735.0
+
+
+problem 7:
+AT Ratio: 2 ( for small-fastq)
+AT Ratio: 1 (for sample1.fastq)
