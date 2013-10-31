@@ -53,8 +53,18 @@ future advice for students: if you meet a guy named Cliff listen to him
 
 Problem 5:
 
-c_content: 0.108872740741
-G_content: 0.106273574074
-T_content: 0.1418805
-A_content: 0.142616425926
+c_content: 5879128.0
+G_content: 5738773.0
+T_content: 7661547.0
+A_content: 7701287.0
 
+problem 6:
+
+data/test-small.fastq
+c_content: 2.0
+G_content: 1.0
+T_content: 2.0
+A_content: 5.0
+GCAT_content: 10.0
+
+test-high-gc-1.fastq
