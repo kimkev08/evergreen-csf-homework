@@ -49,3 +49,12 @@ to badly on one of them.
 
 future advice for students: if you meet a guy named Cliff listen to him
 
+
+
+Problem 5:
+
+c_content: 0.108872740741
+G_content: 0.106273574074
+T_content: 0.1418805
+A_content: 0.142616425926
+
