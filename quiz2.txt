@@ -1,3 +1,8 @@
+from lab2 import n
 
-lab2 = import n.
-print "equal to 50"
+if n < 50:
+    print 'n is less then 50'
+elif n > 50:
+    print 'n is greater then 50'
+else:
+    print 'n equal to 50'
