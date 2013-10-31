@@ -92,14 +92,17 @@ for bp in seq:
     if bp == 'A':
         a_count = a_count + 1
 
-c_content = float(c_count) / total_count
+c_content = float(c_count)
 print 'c_content:', c_content
 
-g_content = float(g_count) / total_count
+g_content = float(g_count)
 print 'G_content:', g_content
 
-t_content = float(t_count) / total_count
+t_content = float(t_count)
 print 'T_content:', t_content
 
-a_content = float(a_count) / total_count
+a_content = float(a_count)
 print 'A_content:', a_content
+
+gcat_count = c_content + g_content + t_content + a_content
+print 'GCAT_content:', gcat_count
