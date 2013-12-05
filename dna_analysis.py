@@ -125,3 +125,15 @@ if gc_content < (total_count * .4):
 else:
     print 'Moderate GC Content'
     
+
+#Create a variable that takes the gc_content and times it by 100 to get it out of a float.
+#Then use that variable to check if its bigger or lesser that the count of the gc_content.
+#Like this
+
+#per= gc_content * 100
+#if per > 60:
+    #print 'high'
+#if per < 40:
+    #print 'low'
+#else:
+    #print 'moderate' 
