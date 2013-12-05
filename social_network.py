@@ -42,7 +42,7 @@ def draw_practice_graph():
 
 # Comment out this line after you have visually verified your practice graph.
 # Otherwise, the picture will pop up every time that you run your program.
-draw_practice_graph()
+#draw_practice_graph()
 
 
 ###
