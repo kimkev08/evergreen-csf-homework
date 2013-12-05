@@ -118,9 +118,9 @@ print 'total length', len(seq)
 AT_Ratio = (a_count + t_count) / (g_count +c_count)
 print 'AT Ratio:', AT_Ratio
 
-if gc_content > (total_count * .4):
+if gc_content > (total_count * .6):
     print 'High GC Content'
-if gc_content < (total_count * .6):
+if gc_content < (total_count * .4):
     print 'Low GC Content'
 else:
     print 'Moderate GC Content'
