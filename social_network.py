@@ -105,6 +105,7 @@ def friends(graph, user):
     """Returns a set of the friends of the given user, in the given graph.
     The parameter 'user' is the string name of a person in the graph.
     """
+    if user 
     return set(graph.neighbors(user))
 
 
