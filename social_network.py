@@ -58,7 +58,7 @@ rj.add_node("Capulet")
 rj.add_node("Nurse")
 rj.add_node("Frair Laurance")
 rj.add_node("Benvolio")
-rj.add_node("Mantague")
+rj.add_node("Montague")
 rj.add_node("Escalus")
 rj.add_node("Mercutio")
 rj.add_node("Paris")
@@ -69,7 +69,7 @@ rj.add_edge("Juliet", "Frair Laurance")
 rj.add_edge("Juliet", "Romeo")
 rj.add_edge("Juliet", "Capulet")
 rj.add_edge("Tybalt", "Capulet")
-rj.add_edge("Romeo", "Frair Laurence")
+rj.add_edge("Romeo", "Frair Laurance")
 rj.add_edge("Romeo", "Benvolio")
 rj.add_edge("Romeo", "Montague")
 rj.add_edge("Romeo", "Mercutio")
@@ -94,7 +94,7 @@ def draw_rj():
 # Comment out this line after you have visually verified your rj graph and
 # created your PDF file.
 # Otherwise, the picture will pop up every time that you run your program.
-#draw_rj()
+draw_rj()
 
 
 ###
@@ -105,7 +105,7 @@ def friends(graph, user):
     """Returns a set of the friends of the given user, in the given graph.
     The parameter 'user' is the string name of a person in the graph.
     """
-    if user 
+    #if user 
     return set(graph.neighbors(user))
 
 
