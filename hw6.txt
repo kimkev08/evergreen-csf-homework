@@ -1,1 +1,8 @@
 Do two problems from Royce and commit them in your hw6.py
+
+problem 1 
+
+the cow is a refrence to the song Old Mcdonald
+
+Problem 2
+i was not able to solve how to do this with the given time
